@@ -13,6 +13,8 @@ void ShowErrorMessage(string message)
 
 int main()
 {
+
+    std::cout << "[TCP Echo Server Ver0.2]\n";
     WSADATA wsaData;
 
     SOCKET serverSocket, clientSocket;
